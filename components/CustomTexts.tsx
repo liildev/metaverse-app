@@ -1,9 +1,8 @@
-import { ReactElement } from 'react';
 import { motion } from 'framer-motion';
 import { textContainer, textVariant2 } from '../utils/motion';
 
 interface IText {
-  title:  string | ReactElement;
+  title: string;
   textStyles?: string;
 }
 
